@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["babel-preset-env", {
+      "targets": {
+        "browsers": [
+          "IE 11"
+        ]
+      },
+      "modules": false,
+      "useBuiltIns": "usage"
+    }]
+  ],
+  "plugins": [
+    "transform-object-rest-spread"
+  ]
+}
